@@ -156,4 +156,4 @@ if __name__ == "__main__":
     grVits = VitsGradio()
     grVits.Vits\
         .queue(concurrency_count=20, status_update_rate=5.0)\
-        .launch(server_port=7870, share=False, show_api=False)
+        .launch(server_port=7870, share=False, show_api=False,max_threads=10)
