@@ -15,7 +15,7 @@ aiohttp
 tornado
 spleeter
 pymusic-dl
-gradio
+gradio==3.30.0
 librosa==0.8.1
 setuptools==59.5.0
 SoundFile
